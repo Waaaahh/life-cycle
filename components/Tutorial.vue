@@ -51,12 +51,12 @@ export default {
   },
 
 
-  beforeUnmount() {
+  beforeDestroy() {
     console.log('beforeUnmount')
   },
   // 4. 언마운트
 
-  unmounted() {
+  destroyed() {
     console.log('unmounted')
   },
 

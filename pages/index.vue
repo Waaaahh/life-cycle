@@ -23,6 +23,7 @@ export default {
   methods: {
     updateComponent() {
       this.text='수정 후'
+      setTimeout(() => this.text='수정 전', 5000)
     },
     unmountComponent() {
       this.show=!this.show
